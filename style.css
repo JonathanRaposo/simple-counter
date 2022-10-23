@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+body {
+    background-color: rgb(42, 41, 41);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.container {
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+    max-width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#decrement-btn {
+    padding: 5px 8px;
+    color: #fff;
+    background-color: crimson;
+    border: none;
+    border-radius: 50%;
+    transition: background-color .15s;
+}
+
+#decrement-btn:hover {
+    background-color: #8f0c26;
+}
+
+#increment-btn {
+    padding: 5px 8px;
+    color: #fff;
+    background-color: #0404a1;
+    border: none;
+    border-radius: 50%;
+    transition: background-color .15s;
+}
+
+#increment-btn:hover {
+    background-color: #020266;
+}
+
+#reset-btn {
+    margin: 10px auto;
+    display: block;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    transition: background-color .15s;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#reset-btn:hover {
+    color: #fff;
+    background-color: #070745;
+}
+
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 50px;
+}
+
+img {
+    animation-name: logo-spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
